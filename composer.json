@@ -1,15 +1,24 @@
 {
-	"name": "coreiho/silverstripe-print-pretty",
-	"description": "Intergrate silverstripe with awhina. awhina: Helps debugging by outputting variables as pretty print. Working as a replacement to is a replacement for print_r() and var_dump().",
-	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "development"],
-	"license": "BSD-3-Clause",
-	"homepage": "http://pseudo.geek.nz",
-	"authors": [{
-		"name": "Gorrie Coe",
-		"email": "gorriecoe@gmail.com"
-	}],
+    "name": "coreiho/silverstripe-print-pretty",
+    "description": "Intergrate silverstripe with awhina. awhina: Helps debugging by outputting variables as pretty print. Working as a replacement to is a replacement for print_r() and var_dump().",
+    "type": "silverstripe-module",
+    "keywords": [
+        "silverstripe",
+        "development"
+    ],
+    "license": "BSD-3-Clause",
+    "homepage": "http://pseudo.geek.nz",
+    "authors": [
+        {
+            "name": "Gorrie Coe",
+            "email": "gorriecoe@gmail.com"
+        }
+    ],
     "require": {
-        "coreiho/awhina": "dev-master"
+        "coreiho/awhina": "dev-master",
+        "silverstripe/framework": "^3.1"
+    },
+    "support": {
+        "issues": "https://github.com/coreiho/silverstripe-print-pretty/issues"
     }
 }
