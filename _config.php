@@ -1,6 +1,6 @@
 <?php
 require_once('conf/ConfigureFromEnv.php');
-function pp($input,$name=NULL){
+    public function pp($input,$name=NULL){
     static $awhina;
     if(is_null($awhina)){
         $awhina = new awhina();
